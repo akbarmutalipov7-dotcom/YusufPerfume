@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+  font-family:"Quicksand" ;
+}
+.container{
+    max-width:1140px ;
+    padding:0 15px ;
+    width:100% ;
+    margin: auto;
+}
+.header{
+    background: #2D2D2D;
+ padding: 27px 0;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav-list{
+    display: flex;
+    gap: 120px;
+}
+.header__nav-icons{
+    display: flex;
+    gap: 40px;
+}
+.logo{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.header__nav-list a{
+    color:rgba(255, 255, 255, 0.5) ;
+  font-size:20px ;
+  font-weight: 500;
+  transition: 300ms;
+}
+.header__nav-list a:hover{
+    color: white;
+}
+body{
+    background: #F9F9F9;
+
+   
+}
+.banner{
+    background: url(images/banner.png);
+    height:731px ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+h1{
+    color: white;
+    font-size: 96px;
+    font-weight: 500;
+    
+}
+.btn{
+    color: #000000;
+  font-size: 20px;  
+  background: white;
+  font-weight: 700;
+  padding: 26px 36px;
+  border-radius: 12px;
+
+}
+.about{
+    text-align: center;
+    padding: 100px 0;
+}
+.about p{
+    max-width: 923px;
+    margin: 40px auto 0;
+    line-height: 40px;
+   font-size: 20px; 
+   font-weight: 500;
+}
+ h2{
+    font-size:40px ;
+    color: #303030;
+ text-align: center;
+    
+}
+.coll-card{
+   display: flex;
+    margin-top: 100px ;
+  justify-content: space-between;
+  
+}
+.coll-card__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.coll-card__info h3{
+    max-width:555px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.coll-card__info p{
+    max-width: 459px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.coll-card__info a {
+    padding: 28px 38px;
+    background: #000;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    border-radius: 12px;
+}
+.footer{
+   background: #2D2D2D;
+padding: 100px 0;
+margin-top:  100px;
+}
+.footer__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
